@@ -1,0 +1,42 @@
+main.sms-pricing-main .input-section {
+  background-image: url('https://www.plivo.com/assets/dist/img/sms.jpg?1489743589');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+main.sms-pricing-main .container-div {
+  padding: 0;
+}
+
+main.sms-pricing-main .input-wrapper {
+  display: table;
+  height: 300px;
+  margin: auto;
+}
+
+main.sms-pricing-main .action-box {
+  width: 600px;
+  margin: auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+main.sms-pricing-main h1.page-heading {
+  margin: 0;
+  font-size: 30px;
+  line-height: 2.6;
+  font-weight: 400;
+}
+
+main.sms-pricing-main .input-field {
+  background-color: rgba(67,160,71,.8);
+  border: 9px solid rgba(67,160,71,1.8);
+  padding: 30px;
+  color: white;
+}
+
+main.sms-pricing-main table th {
+  background-color: #f1f1f1;
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="sms-pricing.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <title>SMS pricing</title>
+</head>
+<body>
+  <main class="sms-pricing-main">
+    <div class="container-fluid container-div">
+      <div class="row">
+        <div class="col-sm-12">
+          <section class="input-section">
+            <div class="input-wrapper">
+              <div class="action-box">
+                <div class="input-field">
+                  <h1 class="page-heading">Select a Country</h1>
+                  <select class="country-name form-control" id="selecting-country" name="countries">
+                    <option class="country-list"></option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <section class="price-section text-center">
+          <div class="col-sm-4 col-sm-offset-4">
+              <h2>SMS's Price </h2>
+            <table class="table table-bordered">
+              <thead>
+                <th>Country</th>
+                <th>Local Price</th>
+                <th>Globle Price</th>
+              </thead>
+              <tbody>
+                <td id="country">-</td>
+                <td id="l-price">-</td>
+                <td id="g-price">-</td>
+              </tbody>
+            </table>
+              <button type="button" id="download" class="btn btn-danger" name="button">Download CSV</button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <script src="sms-pricing.js"></script>
+</body>
+</html>
