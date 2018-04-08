@@ -1,2 +1,2 @@
-clone the repository 
-open the sms-pricing.html file in the browser. 
+clone the repository<br> 
+open the sms-pricing.html file in firefox browser. 
