@@ -40,3 +40,19 @@ main.sms-pricing-main table th {
   background-color: #f1f1f1;
   text-align: center;
 }
+
+main.sms-pricing-main section.voice-price-section {
+  background-color: #ebebeb;
+  min-height: 180px;
+  margin: 40px auto;
+}
+
+.csv-table {
+  width: 600px;
+  margin: 20px auto;
+}
+
+#voice-price-select {
+  width: 600px;
+  margin: 20px auto;
+}

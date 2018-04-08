@@ -27,9 +27,9 @@
             </div>
           </section>
         </div>
-        <section class="price-section text-center">
+        <section class="col-xs-12 price-section text-center">
           <div class="col-sm-4 col-sm-offset-4">
-              <h2>SMS's Price </h2>
+            <h2>SMS's Price </h2>
             <table class="table table-bordered">
               <thead>
                 <th>Country</th>
@@ -42,7 +42,34 @@
                 <td id="g-price">-</td>
               </tbody>
             </table>
-              <button type="button" id="download" class="btn btn-danger" name="button">Download CSV</button>
+            <button type="button" id="download" class="btn btn-danger" name="button">Download CSV</button>
+          </div>
+        </section>
+        <section class="col-xs-12 voice-price-section">
+          <h2 class="text-center">Voice Outbound Price </h2>
+          <div class="col-xs-12">
+            <select id="voice-price-select" class="form-control">
+              <option value="">Pramod</option>
+                <option value="">Pramod Kumar</option>
+            </select>
+            <section id="csv-table-data">
+            <table class="table table-bordered csv-table">
+              <thead>
+                <tr>
+                  <th>COUNTRY</th>
+                  <th>VOICE CALL PREFIXES</th>
+                  <th>RATE/MIN</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td id="td-country">-</td>
+                  <td id="td-prifix">-</td>
+                  <td id="td-price">-</td>
+                </tr>
+              </tbody>
+            </table>
+            </section>
           </div>
         </section>
       </div>
